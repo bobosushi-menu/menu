@@ -1,96 +1,107 @@
 <!doctype html>
 <html lang="zh-CN">
+
 <head>
-<meta charset="utf-8">
-<title>BOBO Sushi 菜单</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset="utf-8" />
+    <title>BOBO Sushi 电子菜单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-<!-- Swiper CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-<style>
-html, body {
-    margin: 0;
-    padding: 0;
-    background: #000;
-    height: 100%;
-}
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    background: #000;
-}
-</style>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            height: 100%;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* 原图比例展示 */
+            background: #000; /* 防止两侧白边 */
+        }
+    </style>
 </head>
 
 <body>
 
-<!-- Swiper 主结构 -->
-<div class="swiper">
-    <div class="swiper-wrapper">
+    <!-- Swiper 主结构 -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
 
-        <!-- 自动生成 1～34 图片 -->
-        <div class="swiper-slide"><img src="001.png"></div>
-        <div class="swiper-slide"><img src="002.png"></div>
-        <div class="swiper-slide"><img src="003.png"></div>
-        <div class="swiper-slide"><img src="004.png"></div>
-        <div class="swiper-slide"><img src="005.png"></div>
-        <div class="swiper-slide"><img src="006.png"></div>
-        <div class="swiper-slide"><img src="007.png"></div>
-        <div class="swiper-slide"><img src="008.png"></div>
-        <div class="swiper-slide"><img src="009.png"></div>
-        <div class="swiper-slide"><img src="010.png"></div>
-        <div class="swiper-slide"><img src="011.png"></div>
-        <div class="swiper-slide"><img src="012.png"></div>
-        <div class="swiper-slide"><img src="013.png"></div>
-        <div class="swiper-slide"><img src="014.png"></div>
-        <div class="swiper-slide"><img src="015.png"></div>
-        <div class="swiper-slide"><img src="016.png"></div>
-        <div class="swiper-slide"><img src="017.png"></div>
-        <div class="swiper-slide"><img src="018.png"></div>
-        <div class="swiper-slide"><img src="019.png"></div>
-        <div class="swiper-slide"><img src="020.png"></div>
-        <div class="swiper-slide"><img src="021.png"></div>
-        <div class="swiper-slide"><img src="022.png"></div>
-        <div class="swiper-slide"><img src="023.png"></div>
-        <div class="swiper-slide"><img src="024.png"></div>
-        <div class="swiper-slide"><img src="025.png"></div>
-        <div class="swiper-slide"><img src="026.png"></div>
-        <div class="swiper-slide"><img src="027.png"></div>
-        <div class="swiper-slide"><img src="028.png"></div>
-        <div class="swiper-slide"><img src="029.png"></div>
-        <div class="swiper-slide"><img src="030.png"></div>
-        <div class="swiper-slide"><img src="031.png"></div>
-        <div class="swiper-slide"><img src="032.png"></div>
-        <div class="swiper-slide"><img src="033.png"></div>
-        <div class="swiper-slide"><img src="034.png"></div>
+            <!-- 封面图 -->
+            <div class="swiper-slide"><img src="000.png" /></div>
 
+            <!-- 菜单图片 001.png ~ 034.png -->
+            <!-- 你有多少图就写多少行 -->
+
+            <div class="swiper-slide"><img src="001.png" /></div>
+            <div class="swiper-slide"><img src="002.png" /></div>
+            <div class="swiper-slide"><img src="003.png" /></div>
+            <div class="swiper-slide"><img src="004.png" /></div>
+            <div class="swiper-slide"><img src="005.png" /></div>
+            <div class="swiper-slide"><img src="006.png" /></div>
+            <div class="swiper-slide"><img src="007.png" /></div>
+            <div class="swiper-slide"><img src="008.png" /></div>
+            <div class="swiper-slide"><img src="009.png" /></div>
+            <div class="swiper-slide"><img src="010.png" /></div>
+            <div class="swiper-slide"><img src="011.png" /></div>
+            <div class="swiper-slide"><img src="012.png" /></div>
+            <div class="swiper-slide"><img src="013.png" /></div>
+            <div class="swiper-slide"><img src="014.png" /></div>
+            <div class="swiper-slide"><img src="015.png" /></div>
+            <div class="swiper-slide"><img src="016.png" /></div>
+            <div class="swiper-slide"><img src="017.png" /></div>
+            <div class="swiper-slide"><img src="018.png" /></div>
+            <div class="swiper-slide"><img src="019.png" /></div>
+            <div class="swiper-slide"><img src="020.png" /></div>
+            <div class="swiper-slide"><img src="021.png" /></div>
+            <div class="swiper-slide"><img src="022.png" /></div>
+            <div class="swiper-slide"><img src="023.png" /></div>
+            <div class="swiper-slide"><img src="024.png" /></div>
+            <div class="swiper-slide"><img src="025.png" /></div>
+            <div class="swiper-slide"><img src="026.png" /></div>
+            <div class="swiper-slide"><img src="027.png" /></div>
+            <div class="swiper-slide"><img src="028.png" /></div>
+            <div class="swiper-slide"><img src="029.png" /></div>
+            <div class="swiper-slide"><img src="030.png" /></div>
+            <div class="swiper-slide"><img src="031.png" /></div>
+            <div class="swiper-slide"><img src="032.png" /></div>
+            <div class="swiper-slide"><img src="033.png" /></div>
+            <div class="swiper-slide"><img src="034.png" /></div>
+
+        </div>
+
+        <!-- 分页器 -->
+        <div class="swiper-pagination"></div>
     </div>
 
-    <div class="swiper-pagination"></div>
-</div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script>
-var swiper = new Swiper('.swiper', {
-    loop: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    }
-});
-</script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            loop: false, // 不循环（菜单不建议循环）
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        });
+    </script>
 
 </body>
+
 </html>
